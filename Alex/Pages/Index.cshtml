@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="right_delete">
+    <div>
+        <h6 class="margin_for">Выберите категорию</h6>
+        <select class="form-select" aria-label="Пример выбора по умолчанию">
+            <option selected>Все</option>
+            <option value="1">Здоровое питание</option>
+            <option value="2">Красота</option>
+            <option value="3">Витамины</option>
+            <option value="4">Гигиена</option>
+            <option value="5">Лекарства</option>
+        </select>
+    </div>
+    <div class="sort">
+        <h6 class="margin_for" >Введите данные для сортировки</h6>
+        <input />
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="~/css/index.css"/>
